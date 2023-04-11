@@ -15,7 +15,7 @@ export default {
   layout: 'common',
   methods: {
     async testA() {
-      const A = await this.testB(10)
+      const A = await this.testB(100)
       const B = await this.testB(20)
       const C = await this.testB(30)
       return A + B - C
